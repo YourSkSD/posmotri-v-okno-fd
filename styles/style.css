@@ -303,9 +303,28 @@ ol {
 }
 
 .content__card-link {
+  appearance: none;
   display: block;
   text-decoration: none;
   color: #fff;
+}
+
+.content__card-link:focus-visible {
+  appearance: none;
+  outline-offset: 1px;
+  outline: 1px solid #fff;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 1px;
+  cursor: pointer;
+}
+
+.content__card-link:active {
+  border: none;
+  background-color: #545050;
 }
 
 .content__video-card {

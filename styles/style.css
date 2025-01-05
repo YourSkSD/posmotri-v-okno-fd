@@ -52,8 +52,6 @@ ol {
 
 .content {
   display: grid;
-  /* padding: 130px 30px 130px 45px; */
-  /* margin: auto; */
   flex-direction: row;
   gap: 30px;
   grid-template-columns: 710px 400px;
@@ -61,7 +59,6 @@ ol {
   grid-template-areas:
   "result content__details"
   "result content__details";
-  /* padding-bottom: 110px; */
 }
 
 .result {
@@ -69,11 +66,10 @@ ol {
 }
 
 .result__video-container {
-  /* position: relative; */
+  position: relative;
   min-width: 710px;
   min-height: 386px;
   margin-bottom: 16px;
-  /* padding-bottom: 16px; */
 }
 
 .result__video {
@@ -85,6 +81,7 @@ ol {
   grid-area: content__details;
   display: flex;
   flex-direction: column;
+  gap: 26px;
 }
 
 .title {
@@ -159,7 +156,6 @@ ol {
   outline-offset: 1px;
   outline: 1px solid #fff;
 }
-/* --- */
 
 .search-form__label-text {
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -189,8 +185,6 @@ ol {
   text-decoration: none;
   border-radius: 0;
   border: none;
-  /* outline-offset: 1px;
-  outline: 1px solid #fff; */
 }
 
 .search-form__label:has(:active) .search-form__pseudo-checkbox::after {
@@ -201,43 +195,6 @@ ol {
   height: 16px;
   background-color: #FFF;
 }
-
-/*
-.search-form__label:has(:active) .search-form__label-text {
-  text-decoration: none;
-  outline: none;
-} */
-
-/* .search-form__textfield:active {
-  border-radius: 0%;
-  border: none;
-  outline-offset: 1px;
-  outline: 1px solid #fff;
-}
-
-/* .search-form__textfield:active {
-  border-radius: 0%;
-  border: none;
-  outline-offset: 1px;
-  outline: 1px solid #fff;
-}
-
-.search-form__textfield:hover {
-  caret-shape: bar;
-}
-
-.search-form__textfield:focus-visible {
-  outline-offset: 1px;
-  outline: 1px solid #fff;
-} */
-
-/* .search-form__lable:has(:focus) {
-  border: none;
-} */
-
-/* .search-form__lable-text {
-  appearance: none;
-} */
 
 .search-form__checkbox-list {
   display: flex;
@@ -268,12 +225,6 @@ ol {
   height: 16px;
   background-color: #FFF;
 }
-
-/* .search-form__label-text:hover {
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: 1px;
-} */
 
 .button {
   box-sizing: border-box;
@@ -330,7 +281,6 @@ ol {
 
 .content__list {
   display: flex;
-  /* position: relative; */
   flex-direction: column;
 }
 
@@ -372,7 +322,6 @@ ol {
 .content__video-card {
   display: flex;
   min-width: 100%;
-  /* padding: 0 3px 3px 30px; */
 }
 
 .content__video-card-description-container {
@@ -398,13 +347,6 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
-}
-
-.content__details {
-  display: flex;
-  gap: 26px;
-  /* min-height: auto;
-  min-width: 100%; */
 }
 
 .content__video-card-description {

@@ -69,12 +69,11 @@ ol {
   position: relative;
   min-width: 711px;
   min-height: 386px;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .result__video {
-  width: 711px;
-  height: 386px;
+  height: 100%;
   object-fit: cover;
 }
 

@@ -70,8 +70,8 @@ ol {
 
 .result__video-container {
   /* position: relative; */
-  width: 710px;
-  height: 386px;
+  min-width: 710px;
+  min-height: 386px;
   margin-bottom: 16px;
   /* padding-bottom: 16px; */
 }
